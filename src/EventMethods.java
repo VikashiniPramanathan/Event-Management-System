@@ -32,26 +32,26 @@ public class EventMethods {
 			}
 	   } 
 	  
-      /* View event details */
+	   /* View event details */
 	  static void viewEvent() {
 		  int event_id,capacity;
 		  String name,location,date; 
 		  String view="select * from `event`"; 
 		  try {
-		  con=Connector.connect();
-		  stmt=con.createStatement();
-		  res=stmt.executeQuery(view);
-		  while(res.next()==true) {
-				event_id=res.getInt(1);
-				name=res.getString(2);
-				date=res.getString(3);
-				location=res.getString(4);
-				capacity=res.getInt(5);
-						
-				System.out.printf("%-7d %-20s %-15s %-15s %d\n",event_id,name,date,location,capacity);
-		     }
-		  }
-		  catch(ClassNotFoundException |SQLException e){
+			  con=Connector.connect();
+			  stmt=con.createStatement();
+			  res=stmt.executeQuery(view);
+			  while(res.next()==true) {
+					event_id=res.getInt(1);
+					name=res.getString(2);
+					date=res.getString(3);
+					location=res.getString(4);
+					capacity=res.getInt(5);
+							
+					System.out.printf("%-7d %-20s %-15s %-15s %d\n",event_id,name,date,location,capacity);
+			  }
+			}
+		  	catch(ClassNotFoundException |SQLException e){
 				e.printStackTrace();
 			}
 			finally {
@@ -59,7 +59,7 @@ public class EventMethods {
 			}  
 	  }
 	  
-      /* Update event details */														
+	  /* Update event details */														
 	  static void updateEvent(int event_id) {
 		  Scanner sc=new Scanner(System.in);
 		  int capacity;
@@ -92,7 +92,7 @@ public class EventMethods {
 			}
 	  }
 	  
-      /* Delete event */   													
+	  /* Delete event */   													
 	  static void deleteEvent(int event_id) {  
 		  String delete="delete from `event` where `event_id`=?";
 		  try { 
