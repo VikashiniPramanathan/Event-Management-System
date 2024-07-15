@@ -27,17 +27,17 @@ class Connector {
 			try {
 				if(res!=null) {
 					res.close();
-					System.out.println("Result closed");
+					//System.out.println("Result closed");
 				}
 				
 				if(stmt!=null) {
 					stmt.close();
-					System.out.println("Statement closed");
+					//System.out.println("Statement closed");
 				}
 				
 				if(con!=null) {
 					con.close();
-					System.out.println("Connection closed");
+					//System.out.println("Connection closed");
 				} 
 			}
 			
