@@ -13,6 +13,7 @@ Developed a menu-based event management system console application, allowing use
 ## How to build this project
 
 ## Sample output
+```
 ======MENU ITEMS======
 1. Event Management
 2. Participant Management
@@ -20,6 +21,7 @@ Developed a menu-based event management system console application, allowing use
 4. Exit
 Enter your choice : 
 1
+
 ======Event Management======
 1. Add new event
 2. View event details
@@ -69,3 +71,4 @@ Enter your choice:
 2
 1      2      2      2020-08-04
 10     4      3      2025-12-12
+```
