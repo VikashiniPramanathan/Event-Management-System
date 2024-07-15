@@ -10,7 +10,11 @@ Developed a menu-based event management system console application, allowing use
 1. Eclipse : 2024-03 (4.31.0)
 2. Mysql Workbench : 8.0.38
 
+## How to import this project
+
+
 ## How to build this project
+
 
 ## Sample output
 ```
@@ -21,7 +25,6 @@ Developed a menu-based event management system console application, allowing use
 4. Exit
 Enter your choice : 
 1
-
 ======Event Management======
 1. Add new event
 2. View event details
