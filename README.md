@@ -28,6 +28,9 @@ Developed a menu-based event management system console application, allowing use
 
 ## Sample output
 ```
+******************************
+****Event Management Sytem****
+******************************
 ======MENU ITEMS======
 1. Event Management
 2. Participant Management

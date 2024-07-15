@@ -210,6 +210,9 @@ public class Event_Management{
 		   Connection con=null;
 		   try {
 			   Scanner sc=new Scanner(System.in);
+			   System.out.println("******************************");
+			   System.out.println("****Event Management Sytem****");
+			   System.out.println("******************************");
 			   while(true) {
 					con=Connector.connect();
 					System.out.println("======MENU ITEMS======");
