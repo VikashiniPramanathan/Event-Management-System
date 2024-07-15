@@ -11,11 +11,20 @@ Developed a menu-based event management system console application, allowing use
 2. Mysql Workbench : 8.0.38
 
 ## How to import this project
+1. Start Eclipse.
+2. Import the project (File -> Import).
+3. Click General, select the Exiting Projects into workspace and click next.
+4. Select the root directory and click Finish.
 
 ## How to build this project
+1. Select Project and click Build All.
 
 > [!NOTE]
 > Port 3306 is the default port for the MySQL Workbench.
+
+## How to Run this project
+1. Select Run and click Run
+2. The console will be popped up.
 
 ## Sample output
 ```
