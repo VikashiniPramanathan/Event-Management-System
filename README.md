@@ -15,7 +15,7 @@ Developed a menu-based event management system console application, allowing use
 
 ## How to build this project
 
-> [!IMPORTANT]
+> [!NOTE]
 > Port 3306 is the default port for the MySQL Workbench.
 
 ## Sample output
