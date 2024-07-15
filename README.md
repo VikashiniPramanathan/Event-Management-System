@@ -12,7 +12,6 @@ Developed a menu-based event management system console application, allowing use
 
 ## How to import this project
 
-
 ## How to build this project
 
 > [!NOTE]
